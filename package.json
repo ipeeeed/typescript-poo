@@ -1,0 +1,24 @@
+{
+  "name": "typescript-poo",
+  "version": "1.0.0",
+  "description": "Aprendendo Orientação a Objetos com Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipeeeed/typescript-poo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ipeeeed/typescript-poo/issues"
+  },
+  "homepage": "https://github.com/ipeeeed/typescript-poo#readme",
+  "dependencies": {
+    "@types/prompt-sync": "^4.2.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
