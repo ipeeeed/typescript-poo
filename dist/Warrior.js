@@ -9,5 +9,11 @@ class Warrior extends Person_1.Person {
         this._forca = Util_1.Util.randomizar(100, 1000);
         this._agilidade = Util_1.Util.randomizar(100, 1000);
     }
+    atacar() {
+        return "Ataque do Guerreiro";
+    }
+    defender(atacante) {
+        throw new Error("Method not implemented.");
+    }
 }
 exports.Warrior = Warrior;

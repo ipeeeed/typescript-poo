@@ -2,22 +2,19 @@ import { Mage } from "./Mage";
 import { Warrior } from "./Warrior";
 import { Priest } from "./Priest";
 import Personagem from "./Personagem";
-
-let mage: Mage = new Mage("Faísca");
-let warrior: Warrior = new Warrior("Muralha");
-let priest: Priest = new Priest("LadraHobbit");
-
-console.log(mage);
-console.log(warrior);
-console.log(priest);
-
-
-
-/*
-import Personagem from "./Personagem";
+import { Person } from "./Person";
 import prompt from "prompt-sync";
 
-let person: Personagem = new Personagem("Guerreiro", "Pedro Matos", 50, 20, 10, 70);
+// let mage: Person = new Mage("Faísca");
+// let warrior: Person = new Warrior("Muralha");
+// let priest: Person = new Priest("LadraHobbit");
+
+
+// const personagens: Person[] = [];
+// personagens.forEach((p) => console.log(p.atacar()));
+
+
+let person: Personagem = new Personagem("Guerreiro", "Pedro Matos", 50, 20, 10, 60);
 
 let teclado = prompt();
 let option: number = 0;
@@ -36,7 +33,6 @@ while(option != 9 || person.isDead()) {
     switch (option) {
         case 1:
             person.treinarAtaque();
-            
             person.status();
             break;
         case 2:
@@ -60,4 +56,3 @@ while(option != 9 || person.isDead()) {
             break;
     }
 }
-*/

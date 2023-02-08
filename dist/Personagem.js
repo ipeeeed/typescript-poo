@@ -18,7 +18,7 @@ class Personagem {
         this._nome = nome;
     }
     status() {
-        return (`
+        console.log(`
         Classe: ${this.classe}
         Nome: ${this.nome}
         Energia: ${this.energia.toFixed(0)}

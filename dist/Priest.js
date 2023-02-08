@@ -9,5 +9,11 @@ class Priest extends Person_1.Person {
         this._espirito = Util_1.Util.randomizar(100, 1000);
         this._versatilidade = Util_1.Util.randomizar(100, 1000);
     }
+    atacar() {
+        return "Ataque do Padre";
+    }
+    defender(atacante) {
+        throw new Error("Method not implemented.");
+    }
 }
 exports.Priest = Priest;

@@ -20,8 +20,8 @@ export default class Personagem {
         this._nome = nome;
     }
 
-    public status(): string {
-        return (`
+    public status(): void {
+        console.log(`
         Classe: ${this.classe}
         Nome: ${this.nome}
         Energia: ${this.energia.toFixed(0)}
